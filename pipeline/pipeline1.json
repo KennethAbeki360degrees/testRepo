@@ -18,7 +18,7 @@
 					"notebookPath": "/Users/kentucky.abeki@outlook.com/ADFTutorial",
 					"baseParameters": {
 						"input": {
-							"value": "@pipeline().parameters.param1",
+							"value": "@variables('kenVar')",
 							"type": "Expression"
 						}
 					}
