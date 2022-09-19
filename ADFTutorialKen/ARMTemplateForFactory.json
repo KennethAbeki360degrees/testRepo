@@ -59,7 +59,10 @@
 						"typeProperties": {
 							"notebookPath": "/Users/kentucky.abeki@outlook.com/ADFTutorial",
 							"baseParameters": {
-								"input": "param1"
+								"input": {
+									"value": "@pipeline().parameters.param1",
+									"type": "Expression"
+								}
 							}
 						},
 						"linkedServiceName": {
