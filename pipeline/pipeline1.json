@@ -17,7 +17,7 @@
 				"typeProperties": {
 					"notebookPath": "/Users/kentucky.abeki@outlook.com/ADFTutorial",
 					"baseParameters": {
-						"input": ""
+						"input": "param1"
 					}
 				},
 				"linkedServiceName": {
