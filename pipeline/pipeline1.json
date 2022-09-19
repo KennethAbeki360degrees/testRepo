@@ -35,6 +35,12 @@
 				"defaultValue": "test"
 			}
 		},
+		"variables": {
+			"kenVar": {
+				"type": "String",
+				"defaultValue": "testing"
+			}
+		},
 		"annotations": []
 	}
 }
