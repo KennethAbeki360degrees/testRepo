@@ -27,6 +27,16 @@
 					"referenceName": "AzureDatabricks_LinkedService",
 					"type": "LinkedServiceReference"
 				}
+			},
+			{
+				"name": "Set  mount folder",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"variableName": "kenVar",
+					"value": "Kobonisuo Abeki"
+				}
 			}
 		],
 		"parameters": {
